@@ -18,7 +18,8 @@ This script will do the following steps:
  * Enable samba in firewall and set rule as "Allow".
  * Check for /etc/samba directory, if not found will create one.
  * Check for existing smb.conf in /etc/samba directory. If not found then create one, provides an option to create a new smb.conf file or backup existing smb.conf to smb.conf.bkp and then create a new smb.conf file, which will open in nano editor in terminal.
- * You will find a sample smb.conf file in <a href="https://github.com/VigilantLoki119/easySMB/tree/master/smb.conf_sample" value="here!"/>. If you want to use default settings with no password protection then copy the contents of this file and paste it inside the opened nano editor. Then ctrl+s to save and ctrl+x to exit.
+ * You will find a sample smb.conf file in <a href="https://github.com/VigilantLoki119/easySMB/tree/master/smb.conf_sample">here</a>. 
+ * If you want to use default settings with no password protection then copy the contents of this file and paste it inside the opened nano editor. Then ctrl+s to save and ctrl+x to exit.
  * Samba service will restarted in systemd for changes to take place.
  * A new samba user will be created where you will be prompted to enter a username(preferable to use your system username) and an smb password. 
  * Your samba setup will be completed. Check in your network whether you can find the shares.
@@ -83,4 +84,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Also I would be happy to allow contributors to contribute to this. As I would really need some!
 
 ## License
-<a href="https://github.com/VigilantLoki119/easySMB/blob/master/LICENSE" value="GNU General Public License v3.0"/>
+<a href="https://github.com/VigilantLoki119/easySMB/blob/master/LICENSE">GNU General Public License v3.0</a>
